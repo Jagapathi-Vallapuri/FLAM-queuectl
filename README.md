@@ -203,3 +203,22 @@ HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD node bin/queuectl.js sta
 ```
 
 Add that snippet to the Dockerfile if container orchestration requires it.
+
+## Demo Recording
+
+A scripted end-to-end demo is provided at `scripts/record-demo.ps1`.
+
+Steps to record (PowerShell):
+
+```pwsh
+# Start your screen recorder
+pwsh -File scripts/record-demo.ps1
+```
+
+The script shows help, enqueues jobs (success, failing, delayed), starts workers, displays status, logs, DLQ operations, config changes, and graceful shutdown.
+
+After recording, upload the video (e.g., to Google Drive) and replace this placeholder link:
+
+Demo video: https://drive.google.com/PLACEHOLDER_LINK_REPLACE_ME
+
+Feel free to shorten the waiting times in the script for a faster demo.
