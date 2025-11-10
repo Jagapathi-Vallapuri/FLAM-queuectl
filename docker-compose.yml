@@ -1,0 +1,10 @@
+services:
+  queuectl:
+    build: .
+    image: flam-queuectl:latest
+    command: ["worker", "run", "--poll-interval", "500"]
+    restart: unless-stopped
+    volumes:
+      - queuectl-data:/data
+volumes:
+  queuectl-data:

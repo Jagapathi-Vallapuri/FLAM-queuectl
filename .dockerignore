@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+Dockerfile
+dist
+.tmp
+.git
+.gitignore
+.azure
+.vscode
+**/.DS_Store
+**/logs
+**/*.log
+coverage
