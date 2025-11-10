@@ -219,6 +219,6 @@ The script shows help, enqueues jobs (success, failing, delayed), starts workers
 
 After recording, upload the video (e.g., to Google Drive) and replace this placeholder link:
 
-Demo video: https://drive.google.com/PLACEHOLDER_LINK_REPLACE_ME
+Demo video: https://drive.google.com/file/d/10z1xO1yf8XbzmoDrcRgRptvAdG6pYrNj/view?usp=drive_link
 
 Feel free to shorten the waiting times in the script for a faster demo.
